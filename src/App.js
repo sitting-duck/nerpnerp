@@ -6,6 +6,11 @@ import PCenter from './components/PCenter';
 import './components/PCenter.css';
 
 
+import React from 'react';
+import { Tooltip } from 'react-tooltip'
+
+
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +20,12 @@ function App() {
         <h1>OMMO Job Description</h1>
 
         <PLeft>Responsibilities</PLeft>
+
+        <a data-tooltip-id="mybutton" data-tooltip-content="Hello to you too!">hiiii</a>
+
+      <Tooltip id="mybutton">
+        This is a tooltip
+      </Tooltip>
 
         <PLeft>Write and maintain well documented, high quality code for projects in various languages (modern C/C++, Python, C#)</PLeft>
 
