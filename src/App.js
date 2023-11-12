@@ -6,10 +6,11 @@ import PCenter from './components/PCenter';
 import './components/PCenter.css';
 
 
-import React from 'react';
-import { Tooltip } from 'react-tooltip'
-import { tooltips } from './components/tooltipTexts.js';
 
+
+import { tooltips } from './components/tooltipTexts.js';
+import ToolTip from './components/ToolTip';
+import './components/ToolTip.css';
 
 
 function App() {
@@ -25,11 +26,10 @@ function App() {
         <PLeft>Write and maintain <a data-tooltip-id="welldoc_tooltip" data-tooltip-content={tooltips.doc}>well documented</a>,
          high quality code for projects in various languages (modern C/C++, Python, C#)</PLeft>
 
-        <Tooltip id="welldoc_tooltip"></Tooltip>
+        <ToolTip id="welldoc_tooltip"></ToolTip>
 
         <PLeft>Write and maintain well documented, high quality code for projects in various languages (modern C/C++, Python, C#)</PLeft>
 
-        <p> <code>Unless I'm in a quick and dirty prototyping workflow where the speed at which we churn through bad ideas is most important, I go out of my way to document</code></p>
         <p> I run a tech blog as a hobby where I pump out two articles per week on average for the past 2 years and at this point, writing technical prose in text, code, video etc is just a breeze</p>
 
         <a
