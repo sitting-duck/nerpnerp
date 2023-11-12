@@ -43,3 +43,7 @@ h1 {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  color: #89CFF0; /* baby blue */
+  text-decoration: none; /* Optional: removes the underline */
+}

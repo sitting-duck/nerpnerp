@@ -8,6 +8,7 @@ import './components/PCenter.css';
 
 import React from 'react';
 import { Tooltip } from 'react-tooltip'
+import { tooltips } from './components/tooltipTexts.js';
 
 
 
@@ -21,11 +22,10 @@ function App() {
 
         <PLeft>Responsibilities</PLeft>
 
-        <a data-tooltip-id="mybutton" data-tooltip-content="Hello to you too!">hiiii</a>
+        <PLeft>Write and maintain <a data-tooltip-id="welldoc_tooltip" data-tooltip-content={tooltips.doc}>well documented</a>,
+         high quality code for projects in various languages (modern C/C++, Python, C#)</PLeft>
 
-      <Tooltip id="mybutton">
-        This is a tooltip
-      </Tooltip>
+        <Tooltip id="welldoc_tooltip"></Tooltip>
 
         <PLeft>Write and maintain well documented, high quality code for projects in various languages (modern C/C++, Python, C#)</PLeft>
 
