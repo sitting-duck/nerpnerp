@@ -7,12 +7,6 @@ import './components/PCenter.css';
 
 
 
-
-import { tooltips } from './components/tooltipTexts.js';
-import ToolTip from './components/ToolTip';
-import './components/ToolTip.css';
-
-
 function App() {
   return (
     <div className="App">
@@ -21,16 +15,52 @@ function App() {
         {/* Edit <code>src/App.js</code> and save to reload.*/}
         <h1>OMMO Job Description</h1>
 
-        <PLeft>Responsibilities</PLeft>
+        <h2><b>Responsibilities</b></h2>
 
-        <PLeft>Write and maintain <a data-tooltip-id="welldoc_tooltip" data-tooltip-content={tooltips.doc}>well documented</a>,
-         high quality code for projects in various languages (modern C/C++, Python, C#)</PLeft>
+        <PLeft>Write and maintain <a href="https://technoteswowowow.medium.com/">well documented</a>,
+         high quality code for projects in <a href="https://github.com/sitting-duck?tab=repositories">various languages</a> (modern <a href="https://github.com/sitting-duck/stuff/tree/master/School%20-%20Comp%20Sci">C/C++</a>, <a href="https://github.com/sitting-duck/stuff/tree/master/School%20-%20Comp%20Sci/Machine_Learning_Spring_2016/Decision_Tree_Learning/five">Python</a>, <a href="https://github.com/sitting-duck/unity-docker-interface/blob/main/Assets/Editor/Docker.cs">C#</a>)</PLeft>
 
-        <ToolTip id="welldoc_tooltip"></ToolTip>
+        
+        <PLeft><a href="https://www.youtube.com/watch?v=VjUWwrW9EVY">Design</a> and implement <a href="https://youtu.be/BWJQ55br3QE">high performance systems</a> with <a href="https://www.youtube.com/watch?v=y0ef0L6hoOA">concurrency</a>, <a href="https://www.youtube.com/watch?v=HvlzI6foozM">low latency</a>, and <a href="https://www.youtube.com/watch?v=0xDd8pmxUgI">low resource</a> <a href="https://www.youtube.com/watch?v=q9Ql0wsd1Lk">usage</a></PLeft>
 
-        <PLeft>Write and maintain well documented, high quality code for projects in various languages (modern C/C++, Python, C#)</PLeft>
+        <PLeft><a href="https://technoteswowowow.medium.com/list/devops-098aeaaa76dd">Write</a> and <a href="https://blog.devops.dev/building-and-deploying-a-unity-game-with-jenkins-a-comprehensive-guide-d7a0579b1b78">maintain</a> <a href="https://www.youtube.com/watch?v=aUHSjDao5Cg">automated</a> <a href="https://github.com/sitting-duck/dotnet-devops-mvp-example/tree/main">build</a> <a href="https://medium.com/devops-dev/deploying-the-nothinggame-to-the-google-playstore-with-fastlane-on-the-command-line-fb8cd918c562">systems</a> and <a href="https://github.com/sitting-duck/conan-ffmpeg">scripts</a></PLeft>
 
-        <p> I run a tech blog as a hobby where I pump out two articles per week on average for the past 2 years and at this point, writing technical prose in text, code, video etc is just a breeze</p>
+        <PLeft>Build <a href="https://www.youtube.com/watch?v=gx8-9URxD9o">tests</a> and <a href="https://www.youtube.com/watch?v=YGR_0Jwn7tA">integration</a> <a href="https://www.youtube.com/watch?v=e89HguK6jSQ">tooling</a> to <a href="https://www.youtube.com/watch?v=xuihe7tf6EM">ensure</a> software release <a href="https://technoteswowowow.medium.com/sonarqube-setup-for-php-project-for-xamp-project-7bc1732d8d8e">quality</a>, <a href="https://medium.com/codex/how-to-use-unitys-smart-merge-also-referred-to-as-unity-yamlmerge-with-git-bash-to-resolve-merge-b9c9931b8944">maintainability</a>, and extensibility</PLeft>
+
+        <PLeft>Collaborate on <a href="https://technoteswowowow.medium.com/how-to-make-a-custom-module-for-reusability-in-the-ns-3-network-simulator-9f4a3eb5a2f9">technical</a> designs to meet product, technical, and <a href="https://www.youtube.com/watch?v=tFhiQjtXDIw">end user</a> needs</PLeft>
+
+        <PLeft>Propose and implement solutions to improve software functionality across a range of topics, such as <a href="https://www.youtube.com/watch?v=2uY4jrDI7ho">UI rendering</a>, <a href="https://github.com/sitting-duck/stuff/tree/master/School%20-%20Comp%20Sci/Operating_Systems_Fall_2013/project%203%20-%20Client%20Server%20with%20Unix%20Stream%20Sockets">client-server communication</a>, <a href="https://www.youtube.com/watch?v=kzHZCQUZHR8">concurrency</a> and <a href="https://github.com/sitting-duck/stuff/tree/master/School%20-%20Comp%20Sci/Operating_Systems_Fall_2013/project%202%20-%20DMV%20Simulation%20with%20Semaphores">parallelism</a>, and performance optimization</PLeft>
+
+        <PLeft><a href="https://docs.google.com/spreadsheets/d/1TpujknPbxDdbOs6WDqk4cbGJRSvymms1/edit#gid=572168914">Compiling and assessing</a> <a href="https://community.topazlabs.com/search?q=Ashley">user feedback</a> to improve software performance</PLeft>
+
+        <PLeft>Training and overseeing the activities of the members of the development team</PLeft>
+
+        <h2><b>Qualifications</b></h2>
+
+        <PLeft>3+ years of professional experience, especially in high performance software systems</PLeft>
+
+        <PLeft>Experience in modern C/C++, especially relating to cross-platform applications, multithreading, drivers, and <a>API/SDK design</a></PLeft>
+
+        <PLeft>Experience with unit, integration, and functional test design and implementation</PLeft>
+
+        <PLeft>Experience with build systems and CI/CD tools such as <a href="https://github.com/sitting-duck/opencv-projects">CMake</a>, <a href="https://medium.com/@technoteswowowow/deploy-to-google-play-with-gameci-and-github-actions-on-windows-11-74c5b5b1b71d">Github Actions</a>, <a href="https://github.com/sitting-duck/unity-devops-jenkins">Jenkins</a>, etc</PLeft>
+
+        <PLeft>Strong debugging skills, and the ability to quickly chart a path from bug report to viable solutions</PLeft>
+
+        <PLeft>Ability to analyze and optimize code to meet strict performance requirements</PLeft>
+
+        <PLeft>Drive to proactively identify opportunities for improvement in our systems and propose solutions</PLeft>
+
+        <PLeft>Ability to work with minimal supervision, prioritizing and adapting to the needs of the team and leadership adeptly</PLeft>
+
+        <PLeft>Strong written and verbal communication skills</PLeft>
+
+        <h2><b>Nice to Haves</b></h2>
+
+        <PLeft>Experience working with benchmarking and profiling high performance systems</PLeft>
+        <PLeft>Experience with C++ frameworks such as <a href="https://youtube.com/playlist?list=PLyz4gagu9XrsMvbn9kcYeLizvWES40CRJ&si=VRLAemrUWd0Ndykl">QT5</a></PLeft>
+        <PLeft>Experience in Windows, MacOS, and Linux application development</PLeft>
+        <PLeft>Working knowledge of Git, CI/CD, and build automation best practices</PLeft>
 
         <a
           className="App-link"

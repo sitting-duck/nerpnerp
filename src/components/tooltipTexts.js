@@ -1,6 +1,6 @@
 // tooltipTexts.js
 
 export const tooltips = {
-  doc: "Unless I'm in a quick and dirty prototyping workflow where the speed at which we churn through bad ideas is most important, I go out of my way to document.",
+  doc: "Unless we're doing quick and dirty prototyping at the speed of light, I go out of my way to document. Check out my <a href='https://technoteswowowow.medium.com/'>tech blog</a> where I pump tech 2x/week",
   // other tooltips can be added here
 };
