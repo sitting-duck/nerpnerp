@@ -39,7 +39,7 @@ function App() {
 
         <PLeft>3+ years of professional experience, especially in high performance software systems</PLeft>
 
-        <PLeft>Experience in modern C/C++, especially relating to cross-platform applications, multithreading, drivers, and <a>API/SDK design</a></PLeft>
+        <PLeft>Experience in <a href="https://github.com/sitting-duck/computational-geometry-robot-motion-planning-summer-2012-tamu-reu/blob/master/Taming_Large_3D_models_Approximate_Convex_Decomposition_Ashley_Tharp.pdf">modern C/C++</a>, especially relating to cross-platform applications, multithreading, drivers, and <a>API/SDK design</a></PLeft>
 
         <PLeft>Experience with unit, integration, and functional test design and implementation</PLeft>
 
@@ -56,20 +56,18 @@ function App() {
         <PLeft>Strong written and verbal communication skills</PLeft>
 
         <h2><b>Nice to Haves</b></h2>
-
         <PLeft>Experience working with benchmarking and profiling high performance systems</PLeft>
         <PLeft>Experience with C++ frameworks such as <a href="https://youtube.com/playlist?list=PLyz4gagu9XrsMvbn9kcYeLizvWES40CRJ&si=VRLAemrUWd0Ndykl">QT5</a></PLeft>
         <PLeft>Experience in Windows, MacOS, and Linux application development</PLeft>
         <PLeft>Working knowledge of Git, CI/CD, and build automation best practices</PLeft>
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2><b>Education</b></h2>
+        <PLeft>Me not having completed my bachelors degree in CS came up with the recruiters as a potential reason not to move me forward initially and I understand that.</PLeft>
+        <PLeft>When I was working at Corduro there was a lot of excitement about Google potentially buying the company, so stopped going to classes to pursue that.</PLeft>
+        <PLeft>When I returned to University I was still working so I transferred from UTD to WGU and have just been taking classes online part time and working.</PLeft>
+        <PLeft>I've got 6 classes left to graduate, and 3 of those I have already taken and passed before with high grades, but they did not transfer. so I don't</PLeft>
+        <PLeft>think finishing it will be a huge obstacle, or affect my work performance. I plan to continue to get a masters in comp sci or mathematics.</PLeft>
+        
       </header>
     </div>
   );
