@@ -67,6 +67,9 @@ function App() {
         <PLeft>When I returned to University I was still working so I transferred from UTD to WGU and have just been taking classes online part time and working.</PLeft>
         <PLeft>I've got 6 classes left to graduate, and 3 of those I have already taken and passed before with high grades, but they did not transfer. so I don't</PLeft>
         <PLeft>think finishing it will be a huge obstacle, or affect my work performance. I plan to continue to get a masters in comp sci or mathematics.</PLeft>
+
+        <h2><b>Questions</b></h2>
+        <PLeft>Is interference a big obstacle?</PLeft>
         
       </header>
     </div>
